@@ -5,5 +5,5 @@ const selectSlice = (state: RootState) => state.product;
 
 export const selectContainers = createSelector(
   [selectSlice],
-  (state) => state.products
+  (state) => state?.products
 );

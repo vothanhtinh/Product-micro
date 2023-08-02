@@ -8,7 +8,7 @@ export interface Product {
 }
 
 const containerSlice = createSlice({
-  name: "container",
+  name: "product",
   initialState: {
     products: [
       {
